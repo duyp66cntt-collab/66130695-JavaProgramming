@@ -39,4 +39,23 @@ public class NhanVien {
 	        System.out.println("Họ tên: " + hoTen);
 	        System.out.println("Lương cơ bản: " + luongcoban);
 	}
+	public String getMaNV() {
+		return maNV;
+	}
+	public void setMaNV(String maNV) {
+		this.maNV = maNV;
+	}
+	public String getHoTen() {
+		return hoTen;
+	}
+	public void setHoTen(String hoTen) {
+		this.hoTen = hoTen;
+	}
+	public double getLuongcoban() {
+		return luongcoban;
+	}
+	public void setLuongcoban(double luongcoban) {
+		this.luongcoban = luongcoban;
+	}
+	
 }
