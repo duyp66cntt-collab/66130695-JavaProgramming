@@ -7,7 +7,7 @@ public class ktoD {
 		FileWriter fw;
 		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
 		try {
-			fw = new FileWriter("C:\\testUnicode.txt");
+			fw = new FileWriter("testUnicode.txt");
 		}
 		catch(IOException exc) {
 			System.out.println("Khong the mo file."); 
